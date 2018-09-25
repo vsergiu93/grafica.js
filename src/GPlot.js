@@ -1,3 +1,5 @@
+
+const GLayer = require('./GLayer')
 /*
  * Plot class. It controls the rest of the graphical elements (layers, axes,
  * title, limits).

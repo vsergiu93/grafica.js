@@ -1,9 +1,17 @@
-require('./GAxis')
-require('./GPoint')
-require('./GLayer')
-require('./GAxisLabel')
-require('./GHistogram')
-require('./GTitle')
-require('./GPlot')
+const GAxis = require('./GAxis')
+const GPoint = require('./GPoint')
+const GLayer = require('./GLayer')
+const GAxisLabel = require('./GAxisLabel')
+const GHistogram = require('./GHistogram')
+const GTitle = require('./GTitle')
+const GPlot = require('./GPlot')
 
-module.exports = {}
+module.exports = {
+    GAxis,
+    GPoint,
+    GLayer,
+    GAxisLabel,
+    GHistogram,
+    GTitle,
+    GPlot
+}
