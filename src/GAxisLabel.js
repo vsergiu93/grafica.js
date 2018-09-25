@@ -182,3 +182,5 @@ GAxisLabel.prototype.setFontProperties = function(fontName, fontColor, fontSize)
 		this.fontSize = fontSize;
 	}
 };
+
+module.exports = { GAxisLabel }
