@@ -130,4 +130,4 @@ GPoint.prototype.isValid = function() {
 	return this.valid;
 };
 
-module.exports = { GPoint }
+export default  { GPoint }

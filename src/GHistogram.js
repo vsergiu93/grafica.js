@@ -382,4 +382,4 @@ GHistogram.prototype.setFontProperties = function(fontName, fontColor, fontSize)
 	}
 };
 
-module.exports = { GHistogram }
+export default { GHistogram }

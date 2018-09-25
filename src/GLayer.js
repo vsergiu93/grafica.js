@@ -1736,4 +1736,4 @@ GLayer.prototype.getHistogram = function() {
 	return this.hist;
 };
 
-module.exports = { GLayer }
+export default  { GLayer }

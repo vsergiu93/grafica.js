@@ -893,4 +893,4 @@ GAxis.prototype.getAxisLabel = function() {
     return this.lab;
 };
 
-module.exports = { GAxis }
+export default  { GAxis }

@@ -2080,4 +2080,4 @@ GPlot.prototype.preventRightClickDefault = function() {
 };
 
 
-module.exports = { GPlot }
+export default { GPlot }

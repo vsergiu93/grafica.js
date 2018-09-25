@@ -183,4 +183,4 @@ GAxisLabel.prototype.setFontProperties = function(fontName, fontColor, fontSize)
 	}
 };
 
-module.exports = { GAxisLabel }
+export default { GAxisLabel }
