@@ -381,5 +381,3 @@ GHistogram.prototype.setFontProperties = function(fontName, fontColor, fontSize)
 		this.fontSize = fontSize;
 	}
 };
-
-export default { GHistogram }

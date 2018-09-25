@@ -1735,5 +1735,3 @@ GLayer.prototype.getLineWidth = function() {
 GLayer.prototype.getHistogram = function() {
 	return this.hist;
 };
-
-export default  { GLayer }
