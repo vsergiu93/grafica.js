@@ -1928,7 +1928,7 @@ GPlot.prototype.touchStartEvent = function(event) {
 	if (this.isOverBox()) {
 		this.listener = this.touchMoveEvent.bind(this);
 		window.addEventListener('touchmove', this.listener, {passive: false});
-		
+
 		if (this.panningIsActive) {
 			this.panningReferencePoint = this.getValueAt(this.parent.mouseX, this.parent.mouseY);
 		}
@@ -1936,7 +1936,7 @@ GPlot.prototype.touchStartEvent = function(event) {
 		if (this.labelingIsActive) {
 			this.mousePos = [ this.parent.mouseX, this.parent.mouseY ];
 		}
-		
+
 		if(this.zoomingIsActive && typeof e.touches !== "undefined" && e.touches.length === 2){
 			var dx = e.touches[ 0 ].pageX - e.touches[ 1 ].pageX;
 			var dy = e.touches[ 0 ].pageY - e.touches[ 1 ].pageY;
@@ -1958,10 +1958,10 @@ GPlot.prototype.touchEndEvent = function(event) {
 	if (this.labelingIsActive) {
 		this.mousePos = undefined;
 	}
-	
+
 	if(this.zoomingIsActive){
 		this.zoomStartDistance = undefined;
-		this.zoomStartPosition = undefined;		
+		this.zoomStartPosition = undefined;
 	}
 };
 
@@ -2078,3 +2078,6 @@ GPlot.prototype.preventWheelDefault = function() {
 GPlot.prototype.preventRightClickDefault = function() {
 	this.parentElt.addEventListener("contextmenu", this.preventDefaultEvent.bind(this), false);
 };
+
+
+module.exports = { GPlot }

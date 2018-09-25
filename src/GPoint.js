@@ -1,4 +1,4 @@
-/*
+/*module.exports = { GAxis }
  * Point class. A GPoint is composed of two coordinates (x, y) and a text label
  */
 function GPoint() {
@@ -129,3 +129,5 @@ GPoint.prototype.getValid = function() {
 GPoint.prototype.isValid = function() {
 	return this.valid;
 };
+
+module.exports = { GPoint }
